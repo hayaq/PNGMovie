@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A9A06751686CB6700D5A5E5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A06741686CB6700D5A5E5 /* CoreVideo.framework */; };
+		4A9A06781686CB6D00D5A5E5 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A06771686CB6D00D5A5E5 /* QTKit.framework */; };
+		4A9A067A1686CB7400D5A5E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A06791686CB7400D5A5E5 /* CoreGraphics.framework */; };
+		4A9A06801686CFC000D5A5E5 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A067F1686CFC000D5A5E5 /* AppKit.framework */; };
+		4A9A06821686D3F200D5A5E5 /* PNGEmbed.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A06811686D3F200D5A5E5 /* PNGEmbed.m */; };
+		4ABBA95A1686C70E00FE56EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ABBA9591686C70E00FE56EC /* Foundation.framework */; };
+		4ABBA95D1686C70E00FE56EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABBA95C1686C70E00FE56EC /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4ABBA9531686C70E00FE56EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A3149631686D807005314DB /* PNGEmbed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNGEmbed.h; sourceTree = "<group>"; };
+		4A9A06741686CB6700D5A5E5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4A9A06771686CB6D00D5A5E5 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		4A9A06791686CB7400D5A5E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A9A067F1686CFC000D5A5E5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4A9A06811686D3F200D5A5E5 /* PNGEmbed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNGEmbed.m; sourceTree = "<group>"; };
+		4ABBA9551686C70E00FE56EC /* PNGMovie */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = PNGMovie; path = pngmovie; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABBA9591686C70E00FE56EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4ABBA95C1686C70E00FE56EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; wrapsLines = 0; };
+		4ABBA95F1686C70E00FE56EC /* PNGMovie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PNGMovie-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ABBA9521686C70E00FE56EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9A06801686CFC000D5A5E5 /* AppKit.framework in Frameworks */,
+				4A9A067A1686CB7400D5A5E5 /* CoreGraphics.framework in Frameworks */,
+				4A9A06781686CB6D00D5A5E5 /* QTKit.framework in Frameworks */,
+				4A9A06751686CB6700D5A5E5 /* CoreVideo.framework in Frameworks */,
+				4ABBA95A1686C70E00FE56EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ABBA94A1686C70E00FE56EC = {
+			isa = PBXGroup;
+			children = (
+				4ABBA95B1686C70E00FE56EC /* PNGMovie */,
+				4ABBA9581686C70E00FE56EC /* Frameworks */,
+				4ABBA9561686C70E00FE56EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ABBA9561686C70E00FE56EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ABBA9551686C70E00FE56EC /* PNGMovie */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ABBA9581686C70E00FE56EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A9A067F1686CFC000D5A5E5 /* AppKit.framework */,
+				4A9A06791686CB7400D5A5E5 /* CoreGraphics.framework */,
+				4A9A06771686CB6D00D5A5E5 /* QTKit.framework */,
+				4A9A06741686CB6700D5A5E5 /* CoreVideo.framework */,
+				4ABBA9591686C70E00FE56EC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ABBA95B1686C70E00FE56EC /* PNGMovie */ = {
+			isa = PBXGroup;
+			children = (
+				4ABBA95C1686C70E00FE56EC /* main.m */,
+				4ABBA95E1686C70E00FE56EC /* Supporting Files */,
+				4A9A06811686D3F200D5A5E5 /* PNGEmbed.m */,
+				4A3149631686D807005314DB /* PNGEmbed.h */,
+			);
+			path = PNGMovie;
+			sourceTree = "<group>";
+		};
+		4ABBA95E1686C70E00FE56EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ABBA95F1686C70E00FE56EC /* PNGMovie-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ABBA9541686C70E00FE56EC /* pngmovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABBA9641686C70E00FE56EC /* Build configuration list for PBXNativeTarget "pngmovie" */;
+			buildPhases = (
+				4ABBA9511686C70E00FE56EC /* Sources */,
+				4ABBA9521686C70E00FE56EC /* Frameworks */,
+				4ABBA9531686C70E00FE56EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pngmovie;
+			productName = PNGMovie;
+			productReference = 4ABBA9551686C70E00FE56EC /* PNGMovie */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ABBA94C1686C70E00FE56EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = hayashi;
+			};
+			buildConfigurationList = 4ABBA94F1686C70E00FE56EC /* Build configuration list for PBXProject "PNGMovie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4ABBA94A1686C70E00FE56EC;
+			productRefGroup = 4ABBA9561686C70E00FE56EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ABBA9541686C70E00FE56EC /* pngmovie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ABBA9511686C70E00FE56EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABBA95D1686C70E00FE56EC /* main.m in Sources */,
+				4A9A06821686D3F200D5A5E5 /* PNGEmbed.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4ABBA9621686C70E00FE56EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4ABBA9631686C70E00FE56EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4ABBA9651686C70E00FE56EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PNGMovie/PNGMovie-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4ABBA9661686C70E00FE56EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PNGMovie/PNGMovie-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ABBA94F1686C70E00FE56EC /* Build configuration list for PBXProject "PNGMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABBA9621686C70E00FE56EC /* Debug */,
+				4ABBA9631686C70E00FE56EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABBA9641686C70E00FE56EC /* Build configuration list for PBXNativeTarget "pngmovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABBA9651686C70E00FE56EC /* Debug */,
+				4ABBA9661686C70E00FE56EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ABBA94C1686C70E00FE56EC /* Project object */;
+}
